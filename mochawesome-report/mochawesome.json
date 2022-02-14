@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-14T01:02:30.881Z",
+    "end": "2022-02-14T01:02:30.887Z",
+    "duration": 6,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d13de4c8-c472-4b6d-8869-9e599edea6ac",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c8a87cc5-78fd-419a-b417-a2b206953886",
+          "title": "Reverse",
+          "fullFile": "/home/artic/Adacta/test/test.js",
+          "file": "/test/test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Lower Case: qwerty -> YTREWQ",
+              "fullTitle": "Reverse Lower Case: qwerty -> YTREWQ",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(reverse(\"qwerty\"), \"YTREWQ\");",
+              "err": {},
+              "uuid": "f4568264-da96-4eff-89b3-f15be187a8e8",
+              "parentUUID": "c8a87cc5-78fd-419a-b417-a2b206953886",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Upper Case: ASDF -> fdsa",
+              "fullTitle": "Reverse Upper Case: ASDF -> fdsa",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(reverse(\"ASDF\"), \"fdsa\");",
+              "err": {},
+              "uuid": "9d75ac28-5ec2-4988-be4e-3f5da79eb896",
+              "parentUUID": "c8a87cc5-78fd-419a-b417-a2b206953886",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Upper Case: 123456 -> 654321",
+              "fullTitle": "Reverse Upper Case: 123456 -> 654321",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(reverse(\"123456\"), \"654321\");",
+              "err": {},
+              "uuid": "7b9f5e08-14bc-4bcc-9a7c-99f650564730",
+              "parentUUID": "c8a87cc5-78fd-419a-b417-a2b206953886",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Lower Case + Upper Case + Number: abCD12 -> 21dcBA",
+              "fullTitle": "Reverse Lower Case + Upper Case + Number: abCD12 -> 21dcBA",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(reverse(\"abCD12\"), \"21dcBA\");",
+              "err": {},
+              "uuid": "1d32b735-6467-42bd-9f62-52510d22c5c3",
+              "parentUUID": "c8a87cc5-78fd-419a-b417-a2b206953886",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f4568264-da96-4eff-89b3-f15be187a8e8",
+            "9d75ac28-5ec2-4988-be4e-3f5da79eb896",
+            "7b9f5e08-14bc-4bcc-9a7c-99f650564730",
+            "1d32b735-6467-42bd-9f62-52510d22c5c3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.1"
+    }
+  }
+}
